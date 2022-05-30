@@ -114,3 +114,32 @@ ul {
     text-align: center;
 }
 
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+}
+    
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
