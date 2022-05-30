@@ -62,11 +62,55 @@ ul {
     background-color: #3882F6;
     padding: 5px 20px;
     border-radius: 5px;
-    border: none
+    border: none;
+    font-weight: bold;
+    
 }
 
 .placeholder {
     background-color: gray;
     padding: 100px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.second-header {
+    font-size: 38px;
+    font-weight: bolder;
+    padding: 38px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+}
+
+.blank {
+    border: solid #3882F6 3px;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.subtext {
+    font-size: 18px;
+    width: 170px;
+    text-align: center;
 }
 
